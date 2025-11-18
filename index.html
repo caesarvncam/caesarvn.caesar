@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Caesar - gian lận kernel-level</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Caesar - gian lận kernel-level."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- NAVBAR -->
+    <header class="nav">
+      <div class="nav-left">
+        <div class="logo-circle">
+          <div class="logo-inner">
+            <!-- Logo app (hoa kim loại) -->
+            <img src="logo-caesar-app.png" alt="caesar App Logo" />
+          </div>
+        </div>
+        <div class="nav-brand">
+          <div class="nav-brand-title">caesar</div>
+          <div class="nav-brand-sub">Kernel-level • Android Root only</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Tính năng</a>
+        <a href="#safety">Độ an toàn</a>
+        <a href="#pricing">Bảng giá</a>
+        <a href="#demo">Clip demo</a>
+        <a href="#help">Hỗ trợ</a>
+        <a href="#dealers">Đại lý</a>
+        <a href="#faq">Hỏi đáp</a>
+      </nav>
+      <div class="nav-cta">
+        <button class="btn btn-primary download-btn">
+          <span>⬇️ Tải xuống</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero" id="top">
+        <!-- LEFT HERO -->
+        <div class="hero-left">
+          <!-- Logo sư tử chìm -->
+          <div class="hero-lion-bg">
+            <img src="logo-caesar.png" alt="caesar Lion background" />
+          </div>
+
+          <div class="hero-left-inner">
+            <div class="hero-pill-row">
+              <div class="hero-pill">
+                <span>🔥</span> <strong>Safe kernel-level</strong>
+              </div>
+              <div class="hero-pill">
+                ⚙️ Premium Kernel Cheat
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Cùng <span class="highlight">Caesar Kernel</span> trở thành phù thủy
+              
+            </h1>
+
+            <p class="hero-sub">
+              Gian lận kernel cấp hệ điều hành dành cho thiết bị Android đã root, 
+              can thiệp trực tiếp ở tầng kernel để đọc và xử lý dữ liệu game theo thời gian thực,
+              hỗ trợ Aimbot, ESP thông minh mà vẫn ưu tiên độ ổn định, độ trễ thấp.
+
+            </p>
+
+            <div class="hero-cta-row">
+              <button class="btn btn-primary download-btn">
+                <span>⬇️ Tải xuống</span>
+              </button>
+              <button class="btn btn-ghost" data-scroll="#features">
+                <span>👀 Xem chi tiết tính năng</span>
+              </button>
+            </div>
+
+            <div class="hero-meta">
+              <span><i>✅</i> Yêu cầu root, không hỗ trợ thiết bị non root</span>
+              <span><i>🛡</i> Bảo mật &amp; an toàn</span>
+            </div>
+
+            <div class="hero-bottom-strip">
+              <span><strong>⚠ Thiết bị hỗ trợ:</strong> Kernel version: 5.10 - 6.12</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT HERO: Đại lý uỷ quyền -->
+        <aside class="hero-right">
+          <div class="lion-card dealer-card">
+            <div class="lion-tag">
+              🛡 caesar – Authorized Dealers
+            </div>
+
+            <div class="dealer-header">
+              <div class="dealer-title">Đại lý uỷ quyền chính thức</div>
+              <div class="dealer-sub">
+                Liên hệ mua key Caesar Kernel qua Telegram, đảm bảo uy tín &amp; hỗ trợ nhanh.
+              </div>
+            </div>
+
+            <ul class="dealer-list">
+              <li class="dealer-item">
+                <div class="dealer-avatar">01</div>
+                <div class="dealer-info">
+                  <div class="dealer-name">Dealer • Mumo</div>
+                  <div class="dealer-handle">
+                    Telegram: <strong>@mumo21</strong>
+                  </div>
+                </div>
+                <a
+                  href="https://t.me/mumo21"
+                  class="dealer-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Chat
+                </a>
+              </li>
+
+              <li class="dealer-item">
+                <div class="dealer-avatar">02</div>
+                <div class="dealer-info">
+                  <div class="dealer-name">Dealer • Milk</div>
+                  <div class="dealer-handle">
+                    Telegram: <strong>@milk_1108</strong>
+                  </div>
+                </div>
+                <a
+                  href="https://t.me/milk_1108"
+                  class="dealer-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Chat
+                </a>
+              </li>
+
+              <li class="dealer-item">
+                <div class="dealer-avatar">03</div>
+                <div class="dealer-info">
+                  <div class="dealer-name">Dealer • T Pubgm</div>
+                  <div class="dealer-handle">
+                    Telegram: <strong>@Tbupdimobile</strong>
+                  </div>
+                </div>
+                <a
+                  href="https://t.me/Tbupdimobile"
+                  class="dealer-cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Chat
+                </a>
+              </li>
+            </ul>
+
+            <div class="dealer-footnote">
+              Luôn kiểm tra đúng @username Telegram trước khi thanh toán để tránh key giả mạo.
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- CORE FEATURES -->
+      <section class="section" id="features">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">TÍNH NĂNG CỐT LÕI</div>
+            <h2 class="section-title">
+              Caesar Premium Kernel
+            </h2>
+          </div>
+          <p class="section-desc">
+          
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🧩</div>
+            <h3 class="feature-title">Cấp độ kernel</h3>
+            <p class="feature-text">
+              Giải pháp kernel level bảo vệ bên ngoài đảm bảo bảo mật tối đa
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🛡</div>
+            <h3 class="feature-title">Vượt qua tất cả các hệ thống chống gian lận</h3>
+            <p class="feature-text">
+              Vượt qua thành công tất cả hệ thống chống gian lận hiện có
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Bảo vệ thời gian thực</h3>
+            <p class="feature-text">
+              Hệ thống driver bảo vệ độc quyền 
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🧩</div>
+            <h3 class="feature-title">Tương thích thiết bị</h3>
+            <p class="feature-text">
+              Hỗ trợ thiết bị Android đã root 
+              Yêu cầu thiết bị có kernel từ 5.10 đến 6.12
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🛡</div>
+            <h3 class="feature-title">Aimbot tùy chỉnh</h3>
+            <p class="feature-text">
+              Tự do tùy chỉnh chức năng Aimbot mượt mà
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🎮</div>
+            <h3 class="feature-title">Hidden  stream</h3>
+            <p class="feature-text">
+              Tính năng esp nâng cao không bị phát hiện 
+              khi quay video - phát trực tiếp
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- SAFETY -->
+      <section class="section" id="safety">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">AN TOÀN &amp; KIỂM SOÁT</div>
+            <h2 class="section-title">Gian lận có trách nhiệm cùng caesar</h2>
+          </div>
+          <p class="section-desc">
+            
+          </p>
+        </div>
+
+        <div class="two-col">
+          <article class="card-soft">
+            <div class="badge-soft">⚠ Những gì bạn cần hiểu trước khi gian lận</div>
+            <p>Gian lận luôn có thể:</p>
+            <ul class="list">
+              <li>Nếu bạn lạm dụng gian lân một cách quá mức bạn sẽ bị cấm</li>
+              <li>Hệ thống Anticheat AI sẽ nhận diện hành vi dẫn đến bạn có thể bị cấm</li>
+              <li>Hãy chơi một cách thông minh</li>
+            </ul>
+            <p style="margin-top:8px;">Hạn chế rủi ro thấp nhất có thể:</p>
+            <ul class="list">
+              <li>Hạn chế nhìn/chạy thẳng vào kẻ địch bị khuất.</li>
+              <li>Kiểm soát tốt Aimbot của bạn, hãy cài đặt nó hoạt động một cách tự nhiên nhất có thể.</li>
+              <li>Hãy diễn tốt nhất có thể và trở thành pro player.</li>
+            </ul>
+            <p style="margin-top:8px;">
+              <strong>Quan trọng:</strong> Bạn chịu trách nhiệm với hành vi của mình khi
+               sử dụng gian lận. Caesar chỉ giúp bạn nâng cao "trình" của mình còn bạn có trở thành SV hay không còn tùy thuộc vào bạn.
+            </p>
+          </article>
+
+          <article class="card-soft">
+            <div class="badge-soft">✨ Phúc lợi khi mua Caesar</div>
+            <ul class="list">
+              <li>Được hỗ trợ nhanh chóng từ đội ngũ kĩ thuật riêng.</li>
+              <li>Hỗ trợ Ipad view + magic bullet ( nếu bạn có nhu cầu. Không khuyến nghị bullet!).</li>
+              <li>Hỗ trợ kích đồ họa, kích nét, tối ưu game.</li>
+              <li>Hỗ trợ về app phụ kiện bàn phím chuột nếu bạn có sử dụng.</li>
+              <li>Hỗ trợ về ép xung thiết bị, root ( có thể sẽ phát sinh chi phí với một số dòng thiết bị ) cũng như ẩn root.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="section" id="pricing">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">BẢNG GIÁ</div>
+            <h2 class="section-title">Key ngày &amp; key tháng</h2>
+          </div>
+          <p class="section-desc">
+            Caesar dành cho thiết bị Android đã root.
+          </p>
+        </div>
+
+        <div class="pricing-wrap">
+          <!-- Cột trái: mô tả -->
+          <div class="pricing-left">
+            <p class="pricing-note">
+              🔹 <strong>Key 24h (trải nghiệm):</strong> cho anh em muốn test thực tế
+              trên máy chính trước khi quyết định gắn bó lâu dài.
+              <br /><br />
+              🔷 <strong>Key tháng :</strong> dành cho người dùng chuyên nghiệp.
+            </p>
+          </div>
+
+          <!-- Cột phải: 2 khung key, key ngày bên trái, key tháng căn phải -->
+          <div class="pricing-right">
+            <!-- Key ngày (nhỏ hơn, nằm bên trái) -->
+            <aside class="pricing-card pricing-card-alt pricing-card-day">
+              <div class="pricing-label">24h • test</div>
+              <div class="pricing-price pricing-price-day">40.000 VND</div>
+              <div class="pricing-alt">EN: 2 USDT / 24h</div>
+              <div class="pricing-sub">
+                Thời hạn: 24 giờ • 1 thiết bị
+              </div>
+              <button class="btn btn-ghost pricing-btn pricing-btn-day download-btn">
+                ⬇️ Tải xuống
+              </button>
+            </aside>
+
+            <!-- Key tháng (to, căn lề phải) -->
+            <aside class="pricing-card pricing-card-main">
+              <div class="pricing-badge">Ưu tiên</div>
+              <div class="pricing-label">720h • Pro Priority</div>
+              <div class="pricing-price pricing-price-month">700.000 VND</div>
+              <div class="pricing-alt">EN: 30 USDT / 30 days</div>
+              <div class="pricing-sub">Thời hạn: 30 ngày • 1 thiết bị</div>
+
+              <ul class="pricing-list">
+                <li>🔓 Nhận toàn bộ phúc lợi của Caesar.</li>
+                <li>🌡  Esp mượt mà tối giản.</li>
+                <li>📈 Aimbot thông minh tùy chỉnh.</li>
+                <li>💾 Hỗ trợ view màn .</li>
+                <li>🚀 Hỗ trợ phát trực tiếp show tay khè gái.</li>
+              </ul>
+
+              <button class="btn btn-primary pricing-btn download-btn">
+                ⬇️ Tải xuống
+              </button>
+
+              <p class="subdued pricing-footnote">
+                Sau khi thanh toán , bạn nhận key dùng trong30 ngày cho 1 thiết bị,
+                kèm hướng dẫn setting chi tiết.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEMO CLIP (VIDEO LOCAL) -->
+      <section class="section" id="demo">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">manual</div>
+            <h2 class="section-title">Xem nhanh cách dùng Caesar </h2>
+          </div>
+        </div>
+
+        <div class="demo-grid">
+          <!-- Khung video -->
+          <article class="demo-video-card">
+            <div class="demo-video-frame">
+              <video id="demoVideo" preload="metadata" poster="logo-caesar.png">
+                <source src="video.mp4" type="video/mp4" />
+                Trình duyệt của bạn không hỗ trợ video HTML5.
+              </video>
+              <button class="demo-video-overlay" type="button">
+                <span class="demo-play-icon">▶</span>
+                <span class="demo-play-text">Bấm để xem clip demo</span>
+              </button>
+            </div>
+            <p class="demo-caption">
+              Clip thực tế khi sử dụng gian lận.
+            </p>
+          </article>
+
+          <!-- Bước sử dụng + logo app -->
+          <article class="demo-steps-card">
+            <div class="demo-steps-header">
+              <div class="demo-app-logo">
+                <img src="logo-caesar-app.png" alt="caesar App Logo" />
+              </div>
+              <div>
+                <h3 class="demo-steps-title">Các bước cơ bản để bắt đầu</h3>
+                <p class="demo-steps-sub">
+                  Đây là các bước cơ bản để Caesar hoạt động.
+                </p>
+              </div>
+            </div>
+
+            <ol class="demo-steps-list">
+              <li><strong>Cài app MT manager &amp; cấp root:</strong> tải xuống và giải nén Caesar.zip</li>
+              <li><strong>Setup:</strong> giải nén và đặt files tại thư mục user</li>
+              <li><strong>Khởi động &amp; bắt đầu:</strong> chạy files "Start Caesar" với quyền root. Chọn "Get pid" trên menu đêt bắt đầu gian lận. </li>
+            </ol>
+
+            <p class="demo-tip">
+              Gợi ý: khi bật "Hidden video stream" exit và khởi động lại hack để có hiệu lực  &amp; có thể tắt mt manager khi menu đã xuất hiện, bạn có thể show đa nghiệm cũng như thư viện ứng dụng khi tham gia CUSTOME.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- HELP / SUPPORT -->
+      <section class="section" id="help">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">SUPPORT</div>
+            <h2 class="section-title">Cần trợ giúp? Gọi Caesar ngay.</h2>
+          </div>
+          <p class="section-desc">
+            Nếu gặp vấn đề trong quá trình cài đặt, cấu hình...
+            hãy dùng các kênh hỗ trợ bên dưới trước khi tự làm liều.
+          </p>
+        </div>
+
+        <div class="help-grid">
+          <article class="help-card">
+            <div class="help-icon">📚</div>
+            <h3 class="help-title">Tài liệu hướng dẫn</h3>
+            <p class="help-text">
+              Hướng dẫn cài đặt, cấu hình, giải thích các tuỳ chọn &amp; preset
+              chi tiết từng bước.
+            </p>
+            <a href="https://t.me/caesar_tutorial" class="help-link">Kênh tài liệu hướng dẫn →</a>
+          </article>
+
+          <article class="help-card">
+            <div class="help-icon">💬</div>
+            <h3 class="help-title">Nhóm chat cộng đồng</h3>
+            <p class="help-text">
+              Tham gia nhóm telegram để trao đổi kinh nghiệm, chia sẻ preset và
+              nhận support nhanh từ caesar.
+            </p>
+            <a
+              href="https://t.me/caesar_cheat"
+              class="help-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tham gia nhóm Telegram →
+            </a>
+          </article>
+
+          <article class="help-card">
+            <div class="help-icon">🛟</div>
+            <h3 class="help-title">Hỗ trợ kỹ thuật</h3>
+            <p class="help-text">
+              Với các case nặng (crash liên tục, liên tục khởi động lại thiết bị..), bạn có thể
+              gửi log và mô tả chi tiết để được tư vấn hướng xử lý an toàn nhất.
+            </p>
+        </div>
+      </section>
+
+      <!-- DEALERS / RESELLERS -->
+      <section class="section" id="dealers">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">ĐẠI LÝ / DEALERS</div>
+            <h2 class="section-title">Trở thành đối tác của Caesar</h2>
+          </div>
+          <p class="section-desc">
+            Bạn có cộng đồng riêng (nhóm game, server ROM, kênh YouTube/TikTok…)
+            và muốn phân phối key caesar Pro? Hãy đăng ký trở thành đại lý chính thức.
+          </p>
+        </div>
+
+        <div class="dealers-grid">
+          <article class="dealers-card">
+            <h3 class="dealers-title">Quyền lợi đại lý</h3>
+            <ul class="list">
+              <li>Chiết khấu theo số lượng key bán ra mỗi tháng.</li>
+              <li>Cấp Dashboard/Sheet theo dõi key &amp; khách hàng.</li>
+              <li>Ưu tiên hỗ trợ kỹ thuật cho caesar từ kênh của bạn.</li>
+            </ul>
+          </article>
+
+          <article class="dealers-card">
+            <h3 class="dealers-title">Điều kiện cơ bản</h3>
+            <ul class="list">
+              <li>Có cộng đồng ổn định hoặc kênh bán hàng rõ ràng.</li>
+              <li>Cam kết không spam, không quảng cáo sai sự thật.</li>
+              <li>Hiểu cơ bản về root, ROM, kernel, ép xung.</li>
+            </ul>
+          </article>
+
+          <article class="dealers-card">
+            <h3 class="dealers-title">Cách đăng ký</h3>
+            <p class="dealers-text">
+              Gửi thông tin kênh (link nhóm, link kênh, nền tảng), khu vực khách
+              hàng chính và ước lượng số lượng khách hàng/tháng cho chúng tôi.
+            </p>
+            <a href="https://t.me/milk_1108" class="help-link">Gứi đăng ký đại lý →</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">FAQ</div>
+            <h2 class="section-title">Câu hỏi thường gặp</h2>
+          </div>
+          <p class="section-desc">
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <div class="faq-question">
+              <span>Caesar có hoạt động trên máy chưa root không?</span>
+              <strong>−</strong>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Không! Caesar  yêu cầu quyền root để can thiệp sâu vào thông tin kernel.
+                Máy chưa root và kernel không được hỗ trợ sẽ không thể sử dụng được.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Caesar có can thiệp vào giữ liệu game của bạn không?</span>
+              <strong>+</strong>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Caesar cam kết 100% không can thiệp vào giữ liệu data game của bạn.
+                Caesar chỉ bảo vệ bên ngoài ở mức kernel.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Tại sao sau mỗi lần khởi động lại thiết bị Caeser lại báo lỗi Driver?</span>
+              <strong>+</strong>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Driver Kernel của Kernel chỉ tồn tại tạm thời và ko tiêm vào kernel gốc thiết bị của bạn.
+                Sau khi khởi động lại thiết bị driver kernel của Caesar sẽ biến mất và khôi phục hoàn toàn kernel gốc.
+                Lúc nào Caesar ko tìm thấy driver của mình và tự động tải lại driver.
+                Mọi hoạt động sẽ hoàn toàn tự động nên bạn ko cần lo lắng nhé.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Báo lỗi không thể kết nối tới server Login</span>
+              <strong>+</strong>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Caesar VN xin lỗi vì đã để gián đoạn quá trình chơi game của bạn.
+                Vì một số khoảng thời gian nhất định trong ngày có thể lượng truy cập máy chủ tăng đột biến dẫn đến tình trạng bị quá tải máy chủ,
+                Cách khắc phục: bạn chỉ cần chạy lại Caesar 1-2 lần là có thể vào được, bạn có thể thừ đổi sang giữ liệu di động hoặc dùng vpn.
+                Mong bạn có thể thông cảm cho Caesar nếu bị trường hợp này :(
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA STRIP -->
+      <section class="cta-strip">
+        <div>
+          <div class="cta-strip-title">
+            Sẵn sàng gian lận với kernel Caesar ?
+          </div>
+          <div class="cta-strip-sub">
+            Tải Caesar, thêm config phù hợp, &amp; tận hưởng gian lận.
+          </div>
+        </div>
+        <div>
+          <button class="btn btn-primary" data-scroll="#pricing">
+            🚀 Bắt đầu với Caesar Pro
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-title">Về caesar kernel</div>
+          <p>
+            Dự án dành cho anh em cụt thủ kéo gái &amp; ảo game.
+          </p>
+        </div>
+        <div>
+          <div class="footer-title">Liên kết nhanh</div>
+          <div class="footer-links">
+            <a href="#features">Tính năng</a>
+            <a href="#safety">Độ an toàn</a>
+            <a href="#pricing">Bảng giá</a>
+            <a href="#demo">Clip demo</a>
+            <a href="#help">Hỗ trợ</a>
+            <a href="#dealers">Đại lý</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-title">Liên hệ</div>
+          <div class="footer-links">
+            <a
+              href="https://t.me/caesar_cheat"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kênh chat giao lưu
+            </a>
+                        <a
+              href="https://t.me/CaesarKernelVN"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nhóm Telegram cộng đồng
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 caesar Lion Boost. All rights reserved.</span>
+        <span>
+          Root &amp; gian lận: hãy làm chủ cách chơi của bạn một cách có trách nhiệm.
+        </span>
+      </div>
+    </footer>
+  </div>
+
+    <!-- DOWNLOAD MODAL -->
+    <div
+      class="download-modal-backdrop"
+      id="downloadModal"
+      aria-hidden="true"
+    >
+      <div class="download-modal" role="dialog" aria-modal="true">
+        <h2 class="download-modal-title">Tải Caesar Kernel</h2>
+        <p class="download-modal-text">
+          Liên hệ đại lý uỷ quyền của chúng tôi để mua chìa khóa.
+        </p>
+
+        <div class="download-modal-actions">
+          <button
+            type="button"
+            class="btn btn-ghost download-modal-close"
+          >
+            Đóng
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary download-confirm-btn"
+          >
+            ✅ Tải Xuống Caesar
+          </button>
+        </div>
+
+        <p class="download-modal-note">
+          Sau khi <strong>Xác nhận tải xuống</strong>, sẽ mở liên kết tải.
+        </p>
+      </div>
+    </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
